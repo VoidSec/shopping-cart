@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 8.5pt Verdana;
+    color: white;
+    background: #339999;
+    background-attachment: fixed;
+}
+
+div#container {
+    width: 998px;
+    overflow: hidden;
+    border: 1px solid lightgreen;
+    background: black;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: url(../img/bg.jpg) repeat;
+}
+
+div#login {
+    background: url(../img/bglogin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:300px;
+    height:137px; 
+}
+
+div#header {
+    width: 998px;
+    height: 100px;
+    background: url(../img/logo.jpg) no-repeat;
+    text-align: left;
+}
+
+div#navigation {
+    width: 998px;
+    height: 29px;
+    padding-top: 4px;
+    text-align: center;
+    border-bottom: 1px solid lightgreen;
+    border-top: 1px solid lightgreen;
+}
+
+.dropdown  {
+    display: inline-block;
+    background: lightgoldenrodyellow; 
+    text-align: center; 
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.dropdown dt  {
+    width: 150px; 
+    border: 1px solid lightgreen; 
+    height: 23px;
+    width: 160px;
+    cursor: pointer;
+    background: black;
+}
+
+.dropdown dt:hover  {
+    border: 1px solid red;
+}
+
+.dropdown dt.single a {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    color: lightgreen;
+}
+
+.dropdown dd  {
+    position: absolute; 
+    overflow: hidden; 
+    width: 162px; 
+    display: none; 
+    background: lightgoldenrodyellow; 
+    z-index: 200; 
+    opacity: 0;
+    text-align: left;
+}
+
+.dropdown ul  {
+    width: 160px; 
+    border: 1px solid lightgoldenrodyellow; 
+    list-style: none; 
+    border-top: none;
+}
+
+.dropdown li  {
+    display: inline;
+}
+
+.dropdown a, .dropdown a:active, .dropdown a:visited  {
+    display: block; 
+    padding: 5px; 
+    color: lightgoldenrodyellow; 
+    text-decoration: none; 
+    width: 150px;
+}
+
+.dropdown a:hover {
+    color: lightgoldenrodyellow;
+}
+
+.dropdown .underline {
+    border-bottom: 1px solid lightgoldenrodyellow
+}
+
+div#main {
+    width: 968px;
+    height: auto;
+    padding: 15px;
+}
+
+div#right {
+    float: left;
+    width: 204px;
+}
+
+div#left {
+    width: 200px;
+    float: right;
+    margin-left: 15px;
+}
+
+div.big-box {
+    background: black;
+    margin-left: 215px;
+    border: 1px solid lightcoral;
+    width: 532px;
+    margin-bottom: 15px;
+}
+
+div.box {
+    width: 747px; 
+    height: auto;
+    background: black;
+    border: 1px solid lightcoral;
+    float: right;
+    margin-bottom: 15px;
+}
+
+div.small-box {
+    margin-bottom: 15px;
+    background: black;
+    border: 1px solid lightcoral;
+}
+
+div.box-content {
+    padding: 0.5em;
+    width: 738px;
+}
+
+div.small-box-content {
+    padding: 0.5em;
+    width: 190px;
+}
+
+div.big-box-content {
+    padding: 0.5em;
+    width: 520px;
+}
+
+div#main-content {
+    width: 680px;
+    height: auto;
+}
+
+div#footer {
+    width: 970px;
+    height: auto;
+    clear: both;
+    margin: -15px auto 0px auto;
+    text-align: center;
+    border-top: 1px solid lightcoral
+}
+
+div#community {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+div#footer-content {
+    width: 96.5%;
+    height: auto;
+    margin: 15px auto;
+    min-height: 15px;
+    padding: 15px;
+    background: black;
+    border: 1px solid lightcoral;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.blink {
+    text-decoration: blink;
+}
+
+a:hover {
+    color:#505050;
+}
+
+div.divider {
+    border-top: 1px solid;
+    padding: 0.5em;
+}
+
+p.center {
+    text-align: center;
+}
+
+.right {
+    float: left
+}
+
+.justify {
+    text-align: justify !important;
+}
+
+img {
+    border: 0;
+}
+
+#prod:hover{
+    width:200px;
+    height:200px;
+}
+
+input, select, option, textarea {
+    font: 8.5pt Verdana;
+}
+
+iframe {
+    border: 0px;
+    display: none;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font: 9.0pt Verdana;
+    color: lightblue;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid lightgreen;
+    background: url(../img/box.gif) repeat-x;
+} 
+
+div#tab td {
+    text-align: center;
+}
